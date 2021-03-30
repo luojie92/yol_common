@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    yol_common (0.0.1)
+      oj
+
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    diff-lcs (1.4.2)
+    oj (3.11.3)
+    rake (13.0.3)
+    rspec (3.8.0)
+      rspec-core (~> 3.8.0)
+      rspec-expectations (~> 3.8.0)
+      rspec-mocks (~> 3.8.0)
+    rspec-core (3.8.0)
+      rspec-support (~> 3.8.0)
+    rspec-expectations (3.8.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-mocks (3.8.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.8.0)
+    rspec-support (3.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  rake
+  rspec
+  yol_common!
+
+BUNDLED WITH
+   2.1.4
