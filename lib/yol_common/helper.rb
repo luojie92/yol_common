@@ -6,6 +6,10 @@ module YolCommon
     name
   end 
 
+  def test1(name)
+    name
+  end 
+
   # 重复范围： 支持日期/数字等所有格式
   def duplicate_periods(periods)
     duplicate_periods = []
